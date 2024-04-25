@@ -1,0 +1,91 @@
+[
+    {
+        "name": "babadogo",
+        "ip": "10.202.30.5"
+    },
+    {
+        "name": "bhesp",
+        "ip": "10.202.30.20"
+    },
+    {
+        "name": "dandora",
+        "ip": "10.202.30.7"
+    },
+    {
+        "name": "eastleigh",
+        "ip": "10.202.30.13"
+    },
+    {
+        "name": "embakasi",
+        "ip": "10.202.30.2"
+    },
+    {
+        "name": "huruma_lions",
+        "ip": "10.202.30.26"
+    },
+    {
+        "name": "karen",
+        "ip": "10.202.30.9"
+    },
+    {
+        "name": "kemri_vct",
+        "ip": "10.202.30.14"
+    },
+    {
+        "name": "kchc",
+        "ip": "10.202.30.11"
+    },
+    {
+        "name": "kibera_do",
+        "ip": "10.202.30.15"
+    },
+    {
+        "name": "kware",
+        "ip": "10.202.30.30"
+    },
+    {
+        "name": "langata",
+        "ip": "10.202.30.17"
+    },
+    {
+        "name": "loco",
+        "ip": "10.202.30.16"
+    },
+    {
+        "name": "ngara",
+        "ip": "10.202.30.18"
+    },
+    {
+        "name": "pumwani_majengo",
+        "ip": "10.202.30.19"
+    },
+    {
+        "name": "pumwani_mat",
+        "ip": "10.202.30.8"
+    },
+    {
+        "name": "riruta",
+        "ip": "10.202.30.21"
+    },
+    {
+        "name": "silanga",
+        "ip": "10.202.30.28"
+    },
+    {
+        "name": "swop_city",
+        "ip": "10.202.30.24"
+    },
+    {
+        "name": "tabitha",
+        "ip": "10.202.30.25"
+    },
+    {
+        "name": "ushirika",
+        "ip": "10.202.30.27"
+    },
+    {
+        "name": "waithaka",
+        "ip": "10.202.30.3"
+    }
+
+]
