@@ -40,10 +40,6 @@
         "ip": "10.202.30.15"
     },
     {
-        "name": "kware",
-        "ip": "10.202.30.30"
-    },
-    {
         "name": "langata",
         "ip": "10.202.30.17"
     },
@@ -130,5 +126,165 @@
     {
         "name": "Kaloleni",
         "ip": "10.202.30.42"
+    },
+    {
+        "name": "Nairobi_South",
+        "ip": "10.202.30.62"
+    },
+    {
+        "name": "IOM",
+        "ip": "10.202.30.58"
+    },
+    {
+        "name": "APTC",
+        "ip": "10.202.30.34"
+    },
+    {
+        "name": "GSU_TS",
+        "ip": "10.202.30.37"
+    },
+    {
+        "name": "Karura",
+        "ip": "10.202.30.40"
+    },
+    {
+        "name": "Njenga",
+        "ip": "10.202.30.68"
+    },
+    {
+        "name": "Biafra",
+        "ip": "10.202.30.66"
+    },
+    {
+        "name": "Kianda_42",
+        "ip": "10.202.30.65"
+    },
+    {
+        "name": "Gatina",
+        "ip": "10.202.30.64"
+    },
+    {
+        "name": "NYS",
+        "ip": "10.202.30.63"
+    },
+    {
+        "name": "GSU_HQ",
+        "ip": "10.202.30.61"
+    },
+    {
+        "name": "Cana",
+        "ip": "10.202.30.59"
+    },
+    {
+        "name": "Mathari_police_depot",
+        "ip": "10.202.30.57"
+    },
+    {
+        "name": "NOSET_Kawangware",
+        "ip": "10.202.30.56"
+    },
+    {
+        "name": "NOSET_Ngara",
+        "ip": "10.202.30.67"
+    },
+    {
+        "name": "DREAMS_SOKONI",
+        "ip": "10.202.30.52"
+    },
+    {
+        "name": "DREAMS_KIBRA_DC",
+        "ip": "10.202.30.44"
+    },
+    {
+        "name": "DREAMS_SAVANNAH",
+        "ip": "10.202.30.75"
+    },
+    {
+        "name": "DREAMS_KOROGOCHO",
+        "ip": "10.202.30.74"
+    },
+    {
+        "name": "DREAMS_NGANDO",
+        "ip": "10.202.30.47"
+    },
+    {
+        "name": "DREAMS_UTALII",
+        "ip": "10.202.30.46"
+    },
+    {
+        "name": "DREAMS_KAYOLE",
+        "ip": "10.202.30.39"
+    },
+    {
+        "name": "MMUH",
+        "ip": "10.202.30.41"
+    },
+    {
+        "name": "Pangani",
+        "ip": "10.202.30.53"
+    },
+    {
+        "name": "DREAMS_TASSIA",
+        "ip": "10.202.30.82"
+    },
+    {
+        "name": "DREAMS_KITUSURU",
+        "ip": "10.202.30.81"
+    },
+    {
+        "name": "DREAMS_MUKURU",
+        "ip": "10.202.30.80"
+    },
+    {
+        "name": "DREAMS_VIWANDANI",
+        "ip": "10.202.30.79"
+    },
+    {
+        "name": "DREAMS_KIAMBIU",
+        "ip": "10.202.30.73"
+    },
+    {
+        "name": "SHAURI_MOYO",
+        "ip": "10.202.30.69"
+    },
+    {
+        "name": "Kibera_south",
+        "ip": "10.202.30.55"
+    },
+    {
+        "name": "Dog_Unit",
+        "ip": "10.202.30.45"
+    },
+    {
+        "name": "Uhuru_Camp",
+        "ip": "10.202.30.43"
+    },
+    {
+        "name": "Kiamaiko",
+        "ip": "10.202.30.49"
+    },
+    {
+        "name": "GSU_Nairobi_West",
+        "ip": "10.202.30.51"
+    },
+    {
+        "name": "Ngundu_HC",
+        "ip": "10.202.30.78"
+    },
+    {
+        "name": "Githurai_44",
+        "ip": "10.202.30.72"
+    },
+    {
+        "name": "Ngomongo",
+        "ip": "10.202.30.71"
+    },
+    {
+        "name": "Patanisho",
+        "ip": "10.202.30.70"
+    },
+    {
+        "name": "Tassia",
+        "ip": "10.202.30.60"
     }
 ]
