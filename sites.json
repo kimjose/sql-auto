@@ -68,10 +68,6 @@
         "ip": "10.202.30.28"
     },
     {
-        "name": "swop_city",
-        "ip": "10.202.30.24"
-    },
-    {
         "name": "tabitha",
         "ip": "10.202.30.25"
     },
@@ -178,14 +174,6 @@
     {
         "name": "Mathari_police_depot",
         "ip": "10.202.30.57"
-    },
-    {
-        "name": "NOSET_Kawangware",
-        "ip": "10.202.30.56"
-    },
-    {
-        "name": "NOSET_Ngara",
-        "ip": "10.202.30.67"
     },
     {
         "name": "DREAMS_SOKONI",
