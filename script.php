@@ -1,9 +1,10 @@
 <?php
 try {
     // Check command line arguments
-    if ($argc < 2) {
-        echo "Usage: php this_file.php <file_path> [ip_address]\n";
+    if ($argc < 3) {
+        echo "Usage: php this_file.php <file_path> <database_name> [ip_address]\n";
         echo "  file_path: Path to SQL file\n";
+        echo "  database_name: Name of the database to connect to\n";
         echo "  ip_address: (Optional) Specific IP address to run query for. If not provided, runs for all sites.\n";
         exit(1);
     }
@@ -12,9 +13,12 @@ try {
 
     // Get the file path from the command line arguments
     $file_path = $argv[1];
+    
+    // Get the database name from the command line arguments
+    $database_name = $argv[2];
 
     // Get optional IP address parameter
-    $target_ip = isset($argv[2]) ? $argv[2] : null;
+    $target_ip = isset($argv[3]) ? $argv[3] : null;
 
     // Check if the file exists
     if (!file_exists($file_path)) {
@@ -82,7 +86,7 @@ try {
 
         echo "\033[93mRunning query for $name ................: \033[0m\n";
         $configFile = __DIR__ . '/.my.cnf';
-        $sqlCommand = "mysql --defaults-file=$configFile -h $ip openmrs -e \"" . $file_contents . "\" 2>&1";
+        $sqlCommand = "mysql --defaults-file=$configFile -h $ip $database_name -e \"" . $file_contents . "\" 2>&1";
 
         $return_code = 0;
         $output = [];
@@ -125,7 +129,7 @@ try {
             $file = $outputDir . $name;
             echo "\033[93mRunning query for $name ................: \033[0m";
             $configFile = __DIR__ . '/.my.cnf';
-            $sqlCommand = "mysql --defaults-file=$configFile -h $ip openmrs -e \"" . $file_contents . "\" 2>&1";
+            $sqlCommand = "mysql --defaults-file=$configFile -h $ip $database_name -e \"" . $file_contents . "\" 2>&1";
 
             $return_code = 0;
             $output = [];

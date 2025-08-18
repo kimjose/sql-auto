@@ -52,8 +52,8 @@ if ($search_term !== null && $count === 0) {
 }
 
 echo "\n\033[92mUsage Examples:\033[0m\n";
-echo "  Run for all sites:     php script.php your_query.sql\n";
-echo "  Run for specific site: php script.php your_query.sql 10.202.30.5\n";
+echo "  Run for all sites:     php script.php your_query.sql database \n";
+echo "  Run for specific site: php script.php your_query.sql database 10.202.30.5\n";
 echo "  Search sites:          php list_sites.php karen\n";
 ?>
 

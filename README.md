@@ -13,12 +13,12 @@ This PHP script allows you to execute SQL queries against multiple sites or a sp
 
 ### 1. Run Query for All Sites (Original Behavior)
 ```bash
-php script.php path/to/your/query.sql
+php script.php path/to/your/query.sql database_name
 ```
 
 ### 2. Run Query for Specific Site by IP Address
 ```bash
-php script.php path/to/your/query.sql 10.202.30.5
+php script.php path/to/your/query.sql database_name 10.202.30.5
 ```
 
 ### 3. List All Available Sites
@@ -36,18 +36,18 @@ php list_sites.php 10.202.30
 
 ### Example 1: Run query for all sites
 ```bash
-php script.php /path/to/my_query.sql
+php script.php /path/to/my_query.sql openmrs
 ```
-This will execute the SQL query against all sites defined in `sites.json`.
+This will execute the SQL query against the `openmrs` database on all sites defined in `sites.json`.
 
 ### Example 2: Run query for babadogo site only
 ```bash
-php script.php /path/to/my_query.sql 10.202.30.5
+php script.php /path/to/my_query.sql openmrs 10.202.30.5
 ```
 This will:
 1. Look up IP `10.202.30.5` in `sites.json`
 2. Find it corresponds to site name `babadogo`
-3. Execute the query only for the babadogo site
+3. Execute the query against the `openmrs` database only for the babadogo site
 4. Save output to `/home/joseph/Documents/test_output/babadogo.csv`
 
 ### Example 3: Find a site's IP address
@@ -81,7 +81,7 @@ Total sites (filtered): 1
 
 - Default database user: `dwapi`
 - Default database password: `dwapi`
-- Default database name: `openmrs`
+- Database name: Specified as command line parameter (e.g., `openmrs`)
 - Connection uses the IP addresses defined in `sites.json`
 
 ## Color Codes
